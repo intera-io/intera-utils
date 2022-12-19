@@ -11,6 +11,16 @@
 		A967F3E72947CC2600403BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A967F3E62947CC2600403BDC /* ContentView.swift */; };
 		A967F3E92947CC2700403BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A967F3E82947CC2700403BDC /* Assets.xcassets */; };
 		A967F3EC2947CC2700403BDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A967F3EB2947CC2700403BDC /* Preview Assets.xcassets */; };
+		A98293A72950E5990047178B /* ImageDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293A62950E5990047178B /* ImageDocument.swift */; };
+		A98293A92950E5DC0047178B /* UIImage+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293A82950E5DC0047178B /* UIImage+Scale.swift */; };
+		A98293AB2950E5FC0047178B /* PDFKitRepresentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293AA2950E5FC0047178B /* PDFKitRepresentedView.swift */; };
+		A98293AD2950E6700047178B /* ConvertionQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293AC2950E6700047178B /* ConvertionQualityView.swift */; };
+		A98293AF2950E6AB0047178B /* ConvertionSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293AE2950E6AB0047178B /* ConvertionSizeView.swift */; };
+		A98293B12950E6BC0047178B /* PDFDisplayModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293B02950E6BC0047178B /* PDFDisplayModeView.swift */; };
+		A98293B42950EEE90047178B /* PDFPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293B32950EEE90047178B /* PDFPreview.swift */; };
+		A98293B62950F1790047178B /* TiteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98293B52950F1790047178B /* TiteEditorView.swift */; };
+		A98293B82950F6370047178B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A98293B72950F6360047178B /* .gitignore */; };
+		A98293BA2950F64F0047178B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A98293B92950F64F0047178B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		A967F3E62947CC2600403BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A967F3E82947CC2700403BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A967F3EB2947CC2700403BDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A967F3F42947ED9300403BDC /* Intera Utils.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Intera Utils.entitlements"; sourceTree = "<group>"; };
+		A98293A62950E5990047178B /* ImageDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDocument.swift; sourceTree = "<group>"; };
+		A98293A82950E5DC0047178B /* UIImage+Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Scale.swift"; sourceTree = "<group>"; };
+		A98293AA2950E5FC0047178B /* PDFKitRepresentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitRepresentedView.swift; sourceTree = "<group>"; };
+		A98293AC2950E6700047178B /* ConvertionQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertionQualityView.swift; sourceTree = "<group>"; };
+		A98293AE2950E6AB0047178B /* ConvertionSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertionSizeView.swift; sourceTree = "<group>"; };
+		A98293B02950E6BC0047178B /* PDFDisplayModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDisplayModeView.swift; sourceTree = "<group>"; };
+		A98293B32950EEE90047178B /* PDFPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPreview.swift; sourceTree = "<group>"; };
+		A98293B52950F1790047178B /* TiteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiteEditorView.swift; sourceTree = "<group>"; };
+		A98293B72950F6360047178B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A98293B92950F64F0047178B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +56,8 @@
 		A967F3D82947CC2600403BDC = {
 			isa = PBXGroup;
 			children = (
+				A98293B72950F6360047178B /* .gitignore */,
+				A98293B92950F64F0047178B /* README.md */,
 				A967F3E32947CC2600403BDC /* Intera Utils */,
 				A967F3E22947CC2600403BDC /* Products */,
 			);
@@ -51,8 +74,13 @@
 		A967F3E32947CC2600403BDC /* Intera Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A98293B22950EA320047178B /* Views */,
+				A967F3F42947ED9300403BDC /* Intera Utils.entitlements */,
 				A967F3E42947CC2600403BDC /* Intera_UtilsApp.swift */,
 				A967F3E62947CC2600403BDC /* ContentView.swift */,
+				A98293A62950E5990047178B /* ImageDocument.swift */,
+				A98293A82950E5DC0047178B /* UIImage+Scale.swift */,
+				A98293AA2950E5FC0047178B /* PDFKitRepresentedView.swift */,
 				A967F3E82947CC2700403BDC /* Assets.xcassets */,
 				A967F3EA2947CC2700403BDC /* Preview Content */,
 			);
@@ -65,6 +93,18 @@
 				A967F3EB2947CC2700403BDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A98293B22950EA320047178B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A98293B02950E6BC0047178B /* PDFDisplayModeView.swift */,
+				A98293AE2950E6AB0047178B /* ConvertionSizeView.swift */,
+				A98293AC2950E6700047178B /* ConvertionQualityView.swift */,
+				A98293B32950EEE90047178B /* PDFPreview.swift */,
+				A98293B52950F1790047178B /* TiteEditorView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A967F3EC2947CC2700403BDC /* Preview Assets.xcassets in Resources */,
+				A98293B82950F6370047178B /* .gitignore in Resources */,
+				A98293BA2950F64F0047178B /* README.md in Resources */,
 				A967F3E92947CC2700403BDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98293AB2950E5FC0047178B /* PDFKitRepresentedView.swift in Sources */,
 				A967F3E72947CC2600403BDC /* ContentView.swift in Sources */,
 				A967F3E52947CC2600403BDC /* Intera_UtilsApp.swift in Sources */,
+				A98293B12950E6BC0047178B /* PDFDisplayModeView.swift in Sources */,
+				A98293AF2950E6AB0047178B /* ConvertionSizeView.swift in Sources */,
+				A98293B42950EEE90047178B /* PDFPreview.swift in Sources */,
+				A98293AD2950E6700047178B /* ConvertionQualityView.swift in Sources */,
+				A98293B62950F1790047178B /* TiteEditorView.swift in Sources */,
+				A98293A92950E5DC0047178B /* UIImage+Scale.swift in Sources */,
+				A98293A72950E5990047178B /* ImageDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +314,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Intera Utils/Intera Utils.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Intera Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = DUH2HW6JQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intera Utils";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +334,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "intera.Intera-Utils";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,12 +348,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Intera Utils/Intera Utils.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Intera Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = DUH2HW6JQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intera Utils";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +368,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "intera.Intera-Utils";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
