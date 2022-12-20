@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A967F3E12947CC2600403BDC /* InteraUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteraUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A967F3E12947CC2600403BDC /* Intera Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intera Utils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A967F3E42947CC2600403BDC /* InteraUtilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteraUtilsApp.swift; sourceTree = "<group>"; };
 		A967F3E62947CC2600403BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A967F3E82947CC2700403BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		A967F3E22947CC2600403BDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A967F3E12947CC2600403BDC /* InteraUtils.app */,
+				A967F3E12947CC2600403BDC /* Intera Utils.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A967F3E02947CC2600403BDC /* InteraUtils */ = {
+		A967F3E02947CC2600403BDC /* Intera Utils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "InteraUtils" */;
+			buildConfigurationList = A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "Intera Utils" */;
 			buildPhases = (
 				A967F3DD2947CC2600403BDC /* Sources */,
 				A967F3DE2947CC2600403BDC /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = InteraUtils;
+			name = "Intera Utils";
 			productName = "Intera Utils";
-			productReference = A967F3E12947CC2600403BDC /* InteraUtils.app */;
+			productReference = A967F3E12947CC2600403BDC /* Intera Utils.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "InteraUtils" */;
+			buildConfigurationList = A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "Intera Utils" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A967F3E02947CC2600403BDC /* InteraUtils */,
+				A967F3E02947CC2600403BDC /* Intera Utils */,
 			);
 		};
 /* End PBXProject section */
@@ -388,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "InteraUtils" */ = {
+		A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "Intera Utils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A967F3ED2947CC2700403BDC /* Debug */,
@@ -397,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "InteraUtils" */ = {
+		A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "Intera Utils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A967F3F02947CC2700403BDC /* Debug */,
