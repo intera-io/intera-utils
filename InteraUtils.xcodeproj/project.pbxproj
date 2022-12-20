@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A967F3E52947CC2600403BDC /* Intera_UtilsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A967F3E42947CC2600403BDC /* Intera_UtilsApp.swift */; };
+		A967F3E52947CC2600403BDC /* InteraUtilsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A967F3E42947CC2600403BDC /* InteraUtilsApp.swift */; };
 		A967F3E72947CC2600403BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A967F3E62947CC2600403BDC /* ContentView.swift */; };
 		A967F3E92947CC2700403BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A967F3E82947CC2700403BDC /* Assets.xcassets */; };
 		A967F3EC2947CC2700403BDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A967F3EB2947CC2700403BDC /* Preview Assets.xcassets */; };
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		A967F3E12947CC2600403BDC /* InteraUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteraUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A967F3E42947CC2600403BDC /* Intera_UtilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intera_UtilsApp.swift; sourceTree = "<group>"; };
+		A967F3E42947CC2600403BDC /* InteraUtilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteraUtilsApp.swift; sourceTree = "<group>"; };
 		A967F3E62947CC2600403BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A967F3E82947CC2700403BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A967F3EB2947CC2700403BDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 				A98293BB295115720047178B /* Intera-Utils-Info.plist */,
 				A98293B22950EA320047178B /* Views */,
 				A967F3F42947ED9300403BDC /* Intera Utils.entitlements */,
-				A967F3E42947CC2600403BDC /* Intera_UtilsApp.swift */,
+				A967F3E42947CC2600403BDC /* InteraUtilsApp.swift */,
 				A967F3E62947CC2600403BDC /* ContentView.swift */,
 				A98293A62950E5990047178B /* ImageDocument.swift */,
 				A98293A82950E5DC0047178B /* UIImage+Scale.swift */,
@@ -183,7 +183,7 @@
 			files = (
 				A98293AB2950E5FC0047178B /* PDFKitRepresentedView.swift in Sources */,
 				A967F3E72947CC2600403BDC /* ContentView.swift in Sources */,
-				A967F3E52947CC2600403BDC /* Intera_UtilsApp.swift in Sources */,
+				A967F3E52947CC2600403BDC /* InteraUtilsApp.swift in Sources */,
 				A98293B12950E6BC0047178B /* PDFDisplayModeView.swift in Sources */,
 				A98293AF2950E6AB0047178B /* ConvertionSizeView.swift in Sources */,
 				A98293B42950EEE90047178B /* PDFPreview.swift in Sources */,
