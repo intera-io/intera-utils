@@ -30,7 +30,6 @@ To install the app you need to:
 ## Swift Package Manager
 We try to use the SPM dependencies only (there are a couple of reasons). The first and main one is the `Intera SDK` and the other one is the `Firebase SDK`.
 
-
 # 👨‍💻 Author
 [Astemir Eleev](https://github.com/jVirus)
 
