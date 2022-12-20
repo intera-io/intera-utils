@@ -17,7 +17,7 @@ struct PDFKitRepresentedView: UIViewRepresentable {
     let data: Data?
     let singlePage: Bool
     @Binding var displayMode: PDFDisplayMode
-    private weak var view: UIViewType?
+    private var view: UIViewType?
     
     init(
         url: URL,
