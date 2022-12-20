@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A967F3E12947CC2600403BDC /* Intera Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intera Utils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A967F3E12947CC2600403BDC /* InteraUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteraUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A967F3E42947CC2600403BDC /* Intera_UtilsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intera_UtilsApp.swift; sourceTree = "<group>"; };
 		A967F3E62947CC2600403BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A967F3E82947CC2700403BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			children = (
 				A98293B72950F6360047178B /* .gitignore */,
 				A98293B92950F64F0047178B /* README.md */,
-				A967F3E32947CC2600403BDC /* Intera Utils */,
+				A967F3E32947CC2600403BDC /* InteraUtils */,
 				A967F3E22947CC2600403BDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +67,12 @@
 		A967F3E22947CC2600403BDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A967F3E12947CC2600403BDC /* Intera Utils.app */,
+				A967F3E12947CC2600403BDC /* InteraUtils.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A967F3E32947CC2600403BDC /* Intera Utils */ = {
+		A967F3E32947CC2600403BDC /* InteraUtils */ = {
 			isa = PBXGroup;
 			children = (
 				A98293BB295115720047178B /* Intera-Utils-Info.plist */,
@@ -86,7 +86,7 @@
 				A967F3E82947CC2700403BDC /* Assets.xcassets */,
 				A967F3EA2947CC2700403BDC /* Preview Content */,
 			);
-			path = "Intera Utils";
+			path = InteraUtils;
 			sourceTree = "<group>";
 		};
 		A967F3EA2947CC2700403BDC /* Preview Content */ = {
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A967F3E02947CC2600403BDC /* Intera Utils */ = {
+		A967F3E02947CC2600403BDC /* InteraUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "Intera Utils" */;
+			buildConfigurationList = A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "InteraUtils" */;
 			buildPhases = (
 				A967F3DD2947CC2600403BDC /* Sources */,
 				A967F3DE2947CC2600403BDC /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = "Intera Utils";
+			name = InteraUtils;
 			productName = "Intera Utils";
-			productReference = A967F3E12947CC2600403BDC /* Intera Utils.app */;
+			productReference = A967F3E12947CC2600403BDC /* InteraUtils.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "Intera Utils" */;
+			buildConfigurationList = A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "InteraUtils" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A967F3E02947CC2600403BDC /* Intera Utils */,
+				A967F3E02947CC2600403BDC /* InteraUtils */,
 			);
 		};
 /* End PBXProject section */
@@ -325,9 +325,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Intera-Utils-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Intera Utils";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,9 +362,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Intera-Utils-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Intera Utils";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "Intera Utils" */ = {
+		A967F3DC2947CC2600403BDC /* Build configuration list for PBXProject "InteraUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A967F3ED2947CC2700403BDC /* Debug */,
@@ -393,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "Intera Utils" */ = {
+		A967F3EF2947CC2700403BDC /* Build configuration list for PBXNativeTarget "InteraUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A967F3F02947CC2700403BDC /* Debug */,
