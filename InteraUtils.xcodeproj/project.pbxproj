@@ -316,10 +316,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Intera Utils/Intera Utils.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "InteraUtils/Intera Utils.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Intera Utils/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"InteraUtils/Preview Content\"";
 				DEVELOPMENT_TEAM = DUH2HW6JQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -353,10 +353,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Intera Utils/Intera Utils.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "InteraUtils/Intera Utils.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Intera Utils/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"InteraUtils/Preview Content\"";
 				DEVELOPMENT_TEAM = DUH2HW6JQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
